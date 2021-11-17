@@ -6,6 +6,12 @@ $( document ).ready(function() {
         acceptCookie();
     });
 
+    const cookiedenytbtn = document.querySelector('#denycookie');
+
+    cookiedenytbtn.addEventListener('click', event => {
+        document.getElementById("cookieNotice").style.display = "none";
+    });
+
     // Set cookie consent
     function acceptCookie() {
         deleteCookie('user_cookie_consent');
