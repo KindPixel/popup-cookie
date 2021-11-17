@@ -1,10 +1,5 @@
 .container-cookie {
-    position: fixed;
-    bottom: 0;
     z-index: 999;
-    transform: translateX(-50%);
-    left: 50%;
-    display:inline-block !important;
 }
 
 .card-cookie {
